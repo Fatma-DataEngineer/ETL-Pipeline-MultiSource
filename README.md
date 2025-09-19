@@ -12,13 +12,16 @@ The data is validated and merged into unified outputs in both **CSV** and **SQL*
 This project is licensed under the MIT License - see the [LICENSE] file for details.
 
 📂 Project Structure
-── data sources        # Input files (CSV, JSON, XML, API)
-── scripts             # Python scripts for extraction, validation, merging, and exporting
-── output              # Final CSV and SQL datasets
-── logs                # Execution logs and validation reports
-── README.md           # Project documentation
-── requirements.txt    # Required Python libraries
-── LICENSE             # Project license
+
+| File Name         | Description                                                         |
+|-------------------|---------------------------------------------------------------------|
+| data sources      | # Input files (CSV, JSON, XML, API)                                 |
+| scripts           | # Python scripts for extraction, validation, merging, and exporting |
+| logs              | # Execution logs and validation reports                             |
+| requirements.txt  | # Required Python libraries                                         |
+| output            | # Final CSV and SQL datasets                                        |
+| README.md         | # Project documentation                                             |
+| LICENSE           | # Project license                                                   |
 
 🚀 ETL Workflow
 
@@ -129,6 +132,8 @@ The project uses Python's built-in logging module to record all ETL execution ev
 📝
 Dates are saved in YYYY-MM-DD format. If Excel shows a different style,
 change the column format to YYY-mm-dd using Ctrl + 1 → Custom.
+
 👩‍💻 Author 
 Developed by Fatma, a data engineer passionate about building robust ETL pipelines that unify data from diverse sources. Focused on validation logic, clean code structure, and professional documentation
+
 GitHub: [Fatma-DataEngineer](https://github.com/Fatma-DataEngineer)
