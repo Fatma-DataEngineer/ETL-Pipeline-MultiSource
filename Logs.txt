@@ -1,0 +1,44 @@
+2025-09-19 15:42:50,750 |INFO | etl_project.py |load_files |start load_files at time 15:42:50 || 2025-09-19
+2025-09-19 15:42:50,751 |INFO | etl_project.py |extract_csv_files |Start extract_csv_files at time 15:42:50 || 2025-09-19
+2025-09-19 15:42:50,752 |INFO | etl_project.py |extract_csv_files |
+CSV_files :3
+2025-09-19 15:42:50,801 |INFO | etl_project.py |extract_csv_files |Finish extract_csv_files at time 2025-09-19 15:42:50.799802 , duration(0:00:00.799802)
+2025-09-19 15:42:50,801 |INFO | etl_project.py |transform_files |Start transform_files at time 15:42:50 || 2025-09-19
+2025-09-19 15:42:50,897 |INFO | etl_project.py |transform_files |Finish transform_files at 2025-09-19 15:42:50.897811,duration 0:00:00.897811
+2025-09-19 15:42:50,898 |INFO | etl_project.py |extract_json_files |Start extract_json_files at 15:42:50 || 2025-09-19
+2025-09-19 15:42:50,899 |INFO | etl_project.py |extract_json_files |
+json_files :3
+2025-09-19 15:42:51,125 |INFO | etl_project.py |extract_json_files |Finish extract_json_files at 2025-09-19 15:42:51.125723, duration 0:00:01.125723
+2025-09-19 15:42:51,126 |INFO | etl_project.py |transform_files |Start transform_files at time 15:42:50 || 2025-09-19
+2025-09-19 15:42:51,140 |INFO | etl_project.py |transform_files |Finish transform_files at 2025-09-19 15:42:51.140734,duration 0:00:01.140734
+2025-09-19 15:42:51,141 |INFO | etl_project.py |extract_xml_files |Start extract_xml_files at time 15:42:50 || 2025-09-19
+2025-09-19 15:42:51,142 |INFO | etl_project.py |extract_xml_files |
+xml_files:3
+2025-09-19 15:42:51,178 |INFO | etl_project.py |extract_xml_files |Finish extract_xml_files at 2025-09-19 15:42:51.178649,duration 0:00:01.178649
+2025-09-19 15:42:51,178 |INFO | etl_project.py |transform_files |Start transform_files at time 15:42:50 || 2025-09-19
+2025-09-19 15:42:51,188 |INFO | etl_project.py |transform_files |Finish transform_files at 2025-09-19 15:42:51.188001,duration 0:00:01.188001
+2025-09-19 15:42:51,188 |INFO | etl_project.py |extract_API_files |Start extract_API_files at time 15:42:50 || 2025-09-19
+2025-09-19 15:42:51,977 |INFO | etl_project.py |extract_API_files |
+API_files :5
+2025-09-19 15:42:52,502 |INFO | etl_project.py |extract_API_files |
+API_files :5
+2025-09-19 15:42:53,234 |INFO | etl_project.py |extract_API_files |
+API_files :7
+2025-09-19 15:42:53,239 |INFO | etl_project.py |extract_API_files |Finish extract_API_files at 2025-09-19 15:42:53.239280,duration 0:00:03.239280
+2025-09-19 15:42:53,240 |INFO | etl_project.py |transform_files |Start transform_files at time 15:42:50 || 2025-09-19
+2025-09-19 15:42:53,249 |INFO | etl_project.py |transform_files |Finish transform_files at 2025-09-19 15:42:53.249674,duration 0:00:03.249674
+2025-09-19 15:42:53,251 |INFO | etl_project.py |load_files |CSV columns: ['order_id', 'customer_name', 'customer_email', 'product_name', 'category', 'price', 'quantity', 'order_date', 'order_date_raw', 'total', 'source']
+2025-09-19 15:42:53,251 |INFO | etl_project.py |load_files |CSV 'order_date' dtype: datetime64[ns]
+2025-09-19 15:42:53,251 |INFO | etl_project.py |load_files |JSON columns: ['order_id', 'customer_name', 'customer_email', 'product_name', 'category', 'price', 'quantity', 'order_date', 'order_date_raw', 'total', 'source']
+2025-09-19 15:42:53,252 |INFO | etl_project.py |load_files |JSON 'order_date' dtype: datetime64[ns]
+2025-09-19 15:42:53,252 |INFO | etl_project.py |load_files |XML columns: ['order_id', 'customer_name', 'customer_email', 'product_name', 'category', 'price', 'quantity', 'order_date', 'order_date_raw', 'total', 'source']
+2025-09-19 15:42:53,252 |INFO | etl_project.py |load_files |XML 'order_date' dtype: datetime64[ns]
+2025-09-19 15:42:53,252 |INFO | etl_project.py |load_files |API columns: ['order_id', 'customer_name', 'customer_email', 'product_name', 'category', 'price', 'quantity', 'order_date', 'order_date_raw', 'total', 'source']
+2025-09-19 15:42:53,252 |INFO | etl_project.py |load_files |API 'order_date' dtype: datetime64[ns]
+2025-09-19 15:42:53,258 |INFO | etl_project.py |load_files |Rows with missing 'order_date': 0 out of 61
+2025-09-19 15:42:53,258 |INFO | etl_project.py |load_files |Sample rows with missing 'order_date':
+2025-09-19 15:42:53,259 |INFO | etl_project.py |load_files |Empty DataFrame
+Columns: [order_id, customer_name, customer_email, product_name, category, price, quantity, order_date, total, source]
+Index: []
+2025-09-19 15:42:54,509 |INFO | etl_project.py |load_files |Rows with missing 'order_date': 0 out of 61
+2025-09-19 15:42:54,510 |INFO | etl_project.py |load_files |Finish load_all_files at 2025-09-19 15:42:54.509936,duration 0:00:04.509936

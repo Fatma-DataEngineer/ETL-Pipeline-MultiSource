@@ -1,0 +1,62 @@
+order_id,customer_name,customer_email,product_name,category,price,quantity,order_date,total,source
+5001,Fatma,fatma@example.com,Laptop,Electronics,1200,1,2025-01-08,1200,CSV
+5002,Ahmed,ahmed@example.com,Mouse,Accessories,75,2,2025-02-08,150,CSV
+5003,Salma,salma@example.com,Smartphone,Electronics,950,1,2025-03-08,950,CSV
+5004,Youssef,youssef@example.com,Keyboard,Accessories,150,2,2025-03-08,300,CSV
+5005,Nour,nour@example.com,Headphones,Accessories,200,1,2025-04-08,200,CSV
+5006,Sara,sara@example.com,Notebook,Stationery,20,5,2025-03-08,100,CSV
+5007,Mohamed,mohamed@example.com,Keyboard,Electronics,150,1,2025-03-08,150,CSV
+5008,Mariam,mariam@shop.com,Tablet,Electronics,600,1,2025-03-08,600,CSV
+5009,Amr,amr@techmail.com,Charger,Accessories,50,2,2025-04-08,100,CSV
+5010,Huda,huda@store.net,Monitor,Electronics,850,1,2025-04-08,850,CSV
+5011,Tarek,tarek@market.org,USB Cable,Accessories,25,3,2025-04-08,75,CSV
+5013,Laila,laila@example.com,Monitor,Electronics,900,1,2025-05-08,900,CSV
+5014,Youssef,youssef@example.com,Pen,Stationery,10,3,2025-05-08,30,CSV
+5015,Lina,lina@buyit.com,Smartwatch,Electronics,300,1,2025-05-08,300,CSV
+5016,Samir,samir@shopnow.com,External HDD,Electronics,400,2,2025-06-08,800,CSV
+5017,Yasin,yasin@techhub.net,Webcam,Accessories,120,1,2025-06-08,120,CSV
+5018,Khaled,khaled@ecomail.com,Bluetooth Speaker,Electronics,275,2,2025-07-08,550,CSV
+5000,Sara,sara@ex,Keyboard,Accessories,150,1,2025-03-08,150,JSON
+5001,Hassan,hassan@ex,T-shirt,Clothing,90,3,2025-12-08,270,JSON
+5002,Dine,dina@ex,Cooking Pot,Home,350,2,2025-08-13,700,JSON
+5003,Mohamed,mohamed@ex,Notebook,Stationery,35,5,2025-08-14,175,JSON
+5004,Ahmed,ahmed@e,Mouse,Accessories,75,2,2025-02-08,150,JSON
+5005,Sara,sara@ex,Novel - The Alchemist,Books,120,1,2025-08-15,120,JSON
+5006,Adel,adel@ex,Sneakers,Clothing,350,1,2025-08-16,350,JSON
+5007,nour,nour@ex,Headphones,Accessories,200,2,2025-05-08,400,JSON
+5008,Khaled,khaled@ex,Bluetooth Speaker,Electronics,275,1,2025-10-08,275,JSON
+5009,Fatma,fatma@ex,Laptop,Electronics,1200,1,2025-01-08,1200,JSON
+5010,Tarek,tarek@ex,Tablet,Electronics,600,1,2025-06-08,600,JSON
+5011,Ahmed,ahmed@ex,Mouse,Accessories,75,2,2025-02-08,150,JSON
+5012,Salma,salma@ex,Smartphone,Electronics,950,1,2025-03-08,950,JSON
+5013,Youssef,youssef@ex,Keyboard,Accessories,150,1,2025-04-08,150,JSON
+5016,fatma@ex,Laptop,Electronics,Electronics,1200,1,2025-01-08,1200,XML
+5017,reem@ex,Fitness Tracker,Electronics,Electronics,320,1,2025-08-17,320,XML
+5018,hadi@ex,Yoga Mat,Sports,Sports,150,2,2025-08-18,300,XML
+5019,nada@ex,Baby Stroller,Kids,Kids,850,1,2025-08-19,850,XML
+5020,ziad@ex,Electric Kettle,Home,Home,180,1,2025-08-20,180,XML
+5021,jana@ex,Sketchbook,Stationery,Stationery,60,3,2025-08-21,180,XML
+5022,ahmed@e,Mouse,Accessories,Accessories,75,2,2025-08-22,150,XML
+5003,sara@ex,Keyboard,Accessories,Accessories,150,1,2025-03-08,150,XML
+5022,salma@ex,Wireless Mouse,Electronics,Electronics,95,2,2025-08-22,190,XML
+5023,ammar@ex,Running Shoes,Sportswear,Sportswear,430,1,2025-08-23,430,XML
+5024,laila@ex,Makeup Kit,Beauty,Beauty,270,1,2025-08-24,270,XML
+5025,khaled@ex,Bluetooth Speaker,Electronics,Electronics,310,1,2025-08-25,310,XML
+5026,dina@ex,Cookware Set,Home,Home,980,1,2025-08-26,980,XML
+1001,Fatma,fatma@ex.com,Laptop,Electronics,1200,1,2025-01-08,1200,API
+1002,Yesin,yesin@ex.com,Mouse,Accessories,75,2,2025-02-08,150,API
+1003,Mona,mona@ex.com,Smartphone,Electronics,950,1,2025-03-08,950,API
+1004,Tarek,tarek@ex.com,Keyboard,Accessories,150,1,2025-04-08,150,API
+1005,Lina,lina@ex.com,Desk Lamp,Home,180,2,2025-05-08,360,API
+1001,Fatma,fatma@ex.com,Laptop,Electronics,1200,1,2025-01-08,1200,API
+1002,Yesin,yesin@ex.com,Mouse,Accessories,75,2,2025-02-08,150,API
+1003,Mona,mona@ex.com,Smartphone,Electronics,950,1,2025-03-08,950,API
+1004,Tarek,tarek@ex.com,Keyboard,Accessories,150,1,2025-04-08,150,API
+1005,Lina,lina@ex.com,Desk Lamp,Home,180,2,2025-05-08,360,API
+1012,Nour,nour@ex.com,Tablet,Electronics,600,2,2025-05-08,1200,API
+1013,Hassan,hassan@ex.com,Charger,Accessories,40,3,2025-06-08,120,API
+1014,Hassan,hassan@ex.com,Gaming Headset,Accessories,220,1,2025-08-14,220,API
+1015,Dina,dina@ex.com,Yoga Mat,Fitness,130,2,2025-08-15,260,API
+1016,Mahmoud,mahmoud@ex.com,Water Bottle,Fitness,60,3,2025-08-16,180,API
+1017,Rania,rania@ex.com,Cookware Set,Home,520,1,2025-12-08,520,API
+1018,Sara,sara@ex.com,Wall Clock,Home,200,1,2025-08-17,200,API
