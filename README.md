@@ -8,8 +8,10 @@ This project demonstrates a complete ETL (Extract, Transform, Load) pipeline tha
 - Public APIs  
 The data is validated and merged into unified outputs in both **CSV** and **SQL** formats.
 
-🚀 License
-This project is licensed under the MIT License - see the [LICENSE] file for details.
+📜 License:
+This project is licensed under CC BY-NC-ND 4.0 
+— for educational use only. Commercial use and modification are not allowed.
+— see the [LICENSE] file for details.
 
 📂 Project Structure
 
@@ -135,4 +137,5 @@ change the column format to YYY-mm-dd using Ctrl + 1 → Custom.
 
 👩‍💻 Author 
 Developed by Fatma, a data engineer passionate about building robust ETL pipelines that unify data from diverse sources. Focused on validation logic, clean code structure, and professional documentation
+
 GitHub: [Fatma-DataEngineer](https://github.com/Fatma-DataEngineer)
